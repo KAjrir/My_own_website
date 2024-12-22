@@ -21,7 +21,7 @@ a{
 header {
     padding: 20px 0;
 }
-
+ 
 header, .header-container{
     display: flex;
     justify-content: space-between;
