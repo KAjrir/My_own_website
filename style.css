@@ -64,9 +64,7 @@ header ul{
     margin: auto;
 }
 
-.sub-header-container {
-    width: 500px;
-}
+
 
 .sub-header-container p:nth-child(1) {
     font-size: 48px;
@@ -85,13 +83,15 @@ header ul{
 }
 
 
-.sub-header-container button{
+.sub-header-container button {
+    all: unset;
     background-color: #3882F6;
     color: white;
-    font-size: larger;
+    cursor: pointer;
+    font-size: 16px;
     font-weight: 600;
-    padding: 8px 32px;
-    border-radius: 8px;
+    padding: 8px 36px;
+    border-radius: 10px;
     border: none;
     margin-top: 12px;
 }
@@ -173,6 +173,7 @@ header ul{
 
 .signup-sign-container button{
     all: unset;
+    background-color: #3882F6;
     font-weight: 900;
     cursor: pointer;
     border: 2px solid white;
@@ -191,4 +192,24 @@ footer {
     color: white;
     text-align: center;
     padding: 50px;
+}
+
+button:hover {
+    background-color: #3881f6de;
+    transition: 500ms;
+}
+
+button:active {
+    background-color: #3881f6a4;
+    transition: 300ms;
+}
+
+.signup-sign-container button:hover{
+    background-color: #1d6cea;
+    transition: 500ms;
+}
+
+.signup-sign-container button:active {
+    background-color: #1b61d1;
+    transition: 300ms;
 }
