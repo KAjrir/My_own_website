@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+html, body {
+    height: 100vh;
+}
+
+header, .sub-header, .random-information, .testimonial, .signup-sign, footer{
+    flex: auto;
+}
+
 body{
     font-family: "Roboto";
     display: flex;
